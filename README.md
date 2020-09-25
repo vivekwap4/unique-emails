@@ -17,9 +17,10 @@ Output: 2. Because test.email@gmail.com becomes testemail@gmail.com, test+email@
         Therefore, we have two distinct email addresses.
         
 # How to run:
-The API is written using Java (JAX-RS). 
+The API is written using Java (JAX-RS). Please use POST method when using it.
 
 1) To run it locally, clone it to your system. Please make sure that you have Java, Eclipse, and Tomcat installed. Open Eclipse -> File -> Import Maven Project and import the                         project. Right click on the project -> Run As -> 1 Run on Server. The app would open a browser window with the path to the app root. The endpoint we want to target is 
-localhost:8080/unique-emails/rest/emails/unique. The API can be tested through Postman.
+localhost:8080/unique-emails/rest/emails/unique using a POST method. The API can be tested through Postman.
 
 2) The API is also deployed on heroku and can be hit at: https://unique-emails.herokuapp.com/rest/emails/unique
+
